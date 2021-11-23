@@ -12,21 +12,22 @@ In this application, the main page displays a list of "shelves" (i.e. categories
 Currently Reading
 Want to Read
 Read
-![alt text](https://d17h27t6h515a5.cloudfront.net/topher/2017/May/590c0f12_react-project1-a/react-project1-a.png)
+![react-project1-a](https://user-images.githubusercontent.com/62913154/143073820-473594ad-c105-4621-bdd9-70cf415bb6c3.png)
+
 
 Each book has a control that lets you select the shelf for that book. When you select a different shelf, the book moves there. Note that the default value for the control should always be the current shelf the book is in.
+![react-project1-b](https://user-images.githubusercontent.com/62913154/143073857-8aa1ea12-c914-4953-815f-7ea2d4a5aa04.png)
 
-![alt text](https://d17h27t6h515a5.cloudfront.net/topher/2017/May/590c0f26_react-project1-b/react-project1-b.png)
 
 The main page also has a link to /search, a search page that allows you to find books to add to your library.
 
 The search page has a text input that may be used to find books. As the value of the text input changes, the books that match that query are displayed on the page, along with a control that lets you add the book to your library. To keep the interface consistent, you may consider re-using some of the code you used to display the books on the main page.
+![react-project1-c](https://user-images.githubusercontent.com/62913154/143073884-152826ba-c383-4110-b517-2263328bf446.png)
 
-![alt text](https://d17h27t6h515a5.cloudfront.net/topher/2017/May/590c0f40_react-project1-c/react-project1-c.png)
 
 When a book is on a bookshelf, it should have the same state on both the main application page and the search page.
+![correct-use-of-state](https://user-images.githubusercontent.com/62913154/143073941-207912e5-d236-42df-a1c7-cd25a10ea4a7.gif)
 
-![alt text](https://d17h27t6h515a5.cloudfront.net/topher/2017/July/595d48a9_correct-use-of-state/correct-use-of-state.gif)
 
 The search page also has a link to / (the root URL), which leads back to the main page.
 
@@ -35,7 +36,7 @@ When you navigate back to the main page from the search page, you should instant
 ## Getting Started
 
 ```
-git clone ''
+git clone 'https://github.com/alisamirali/MyReads-A-Book-Lending-App.git'
 cd MyReads-A-Book-Lending-App
 npm install
 npm start
